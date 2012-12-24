@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tic Tac Toe</title>
+		<link href="main.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="options">
+			<span class="numPlayersButton onePlayer">1 Player</span>
+			<span class="numPlayersButton twoPlayer active">2 Players</span>
+		</div>
+		<div class="content">
+			<div class="board">
+				<div class="row">
+					<div class="cell top left">
+						<span id="1" class="move"></span>
+					</div>
+					<div class="cell top center">
+						<span id="2" class="move"></span>
+					</div>
+					<div class="cell top right">
+						<span id="3" class="move"></span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="cell middle left">
+						<span id="4" class="move"></span>
+					</div>
+					<div class="cell middle center">
+						<span id="5" class="move"></span>
+					</div>
+					<div class="cell middle right">
+						<span id="6" class="move"></span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="cell left bottom">
+						<span id="7" class="move"></span>
+					</div>
+					<div class="cell bottom center">
+						<span id="8" class="move"></span>
+					</div>
+					<div class="cell bottom right">
+						<span id="9" class="move"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="reset">Reset</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="modernizr.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>
